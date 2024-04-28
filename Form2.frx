@@ -1,0 +1,10 @@
+耰mport numpy as np
+import matplotlib.pyplot as plt
+import sys
+
+x = np.linspace(0, 2*np.pi, 100)
+y = np.sin(x)
+
+# 输出曲线数据到标准输出流
+for i in range(len(x)):
+    print(x[i], y[i])
